@@ -18,7 +18,7 @@ Kappa's Barebone Index for Use in other Discord Bots with credit to us
 <li><strong>!lang - changes Kappas language</strong></li>
 <li><strong>!version - shows Kappa's current Version</strong></li>
 <li><strong>!meme [text] - Gives you some Dank memes per pic or Text</strong></li>
-<li><strong>!say - let the bot be a parrot</strong></li>
+<li><strong>!say [channel] - let the bot be a parrot</strong></li>
 <li><strong>!suggest - suggest things to the Devs</strong></li>
 <li><strong>!bug - report the bugs</strong></li>
 </ul>
