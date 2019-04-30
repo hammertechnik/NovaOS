@@ -36,5 +36,5 @@ Kappa's Barebone Index for Use in other Discord Bots with credit to us
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> <strong>Web Overlay</strong></li>
 </ul>
 <h2 id="questions">Questions?</h2>
-<p><strong>Just contact me here:</strong> <a href="mailto:hammertechnik@gmail.com">hammertechnik@gmail.com</a></p>
+<p><strong>Just contact us here:</strong> <a href="mailto:hammertechnik@gmail.com">hammertechnik@gmail.com</a></p>
 
