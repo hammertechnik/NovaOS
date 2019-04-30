@@ -9,7 +9,7 @@ Kappa's Barebone Index for Use in other Discord Bots with credit to us
 <h1 id="welcome-to-kappabot-">Welcome to KappaBot! <img src="https://cdn.discordapp.com/attachments/546008503299604508/549299551153029131/Kappa_new.png" alt="Kappa"></h1>
 <h2 id="what-is-kappa">What is Kappa?</h2>
 <h3 id="kappa-is-your-discord-server-helper-with-40-commands">Kappa is your Discord Server Helper with 35 commands!</h3>
-<p><strong>Kappa is a Discord Moderator, that can also be a parrot, or just use him for a quick game of TicTacToe!</strong></p>
+<p><strong>Kappa is a Discord Moderator, that can also be a parrot, or just use him for a quick game of TicTacToe(upcoming feature)!</strong></p>
 <h2 id="what-can-he-do">What can he do?</h2>
 <p><strong>He has some powerful and useful commands that will help your life on a server!</strong></p>
 <p><strong>Here are some commands:</strong></p>
