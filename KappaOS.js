@@ -62,8 +62,8 @@ client.on('message', async message => {
        let args;
        let cmd;
        if(!console_mode){
-       cmd = args.shift().toLowerCase();
        args = message.content.slice(prefix.length).trim().split(" ");
+       cmd = args.shift().toLowerCase();
        } 
        let msgContent = message.content.toLowerCase().trim().split(" ");
        if(console_mode) {
