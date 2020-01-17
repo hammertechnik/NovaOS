@@ -1,5 +1,5 @@
-# KappaOS
-Kappa's Barebone Index for Use in other Discord Bots with credit to us
+# NovaOS
+A Discord Bot Engine, made for easy development of multifile Discord Bots with Aliases Intigration!
 
 ---
 
