@@ -1,3 +1,6 @@
+//NovaOS V4
+//Made by HammerTechnik
+  
   const Discord = require('discord.js')
   // @ts-ignore
   const fs = require('fs')
