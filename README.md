@@ -1,4 +1,4 @@
-# NovaOS
+# KappaOS
 A Discord Bot Engine, made for easy development of multifile Discord Bots with Aliases Intigration!
 
 ---
