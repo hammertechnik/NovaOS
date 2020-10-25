@@ -82,7 +82,7 @@
   client.on('ready', async () => {
     console.info(chalk.green(`${client.user.username} has started running ${client.ws.shards.size} Shard(s), with ${client.users.cache.size} users, in ${client.channels.cache.size} channels of ${client.guilds.cache.size} guilds.`))
 
-    // client.user.setStatus('dnd')
+    client.user.setStatus('online')
 
     //advanced status
     let a = 5
@@ -159,7 +159,6 @@
       .setImage(attachment)
       .setTimestamp()
       .setColor("#ff0000")
-    // @ts-ignore
     client.channels.cache.get(dmchannel).send(embed)
   })
 
@@ -213,7 +212,7 @@
     }
     let permlvl
 
-    if (!message.member.hasPermission("MANAGE_MESSAGES") || !message.member.hasPermission("ADMINISTRATOR") ||/* !client.guilds.cache.get('546008502754082830').roles.cache.get('548492717118849034').members.map(m=>m.user.tag).includes(message.author.id) || */ !client.guilds.cache.get('546008502754082830').roles.cache.get('552758121789915136').members.map(m => m.user.tag).includes(message.author.id)) {
+    if (!message.member.hasPermission("MANAGE_MESSAGES") || !message.member.hasPermission("ADMINISTRATOR")) {
       permlvl = 1
     }
 
@@ -245,7 +244,6 @@
     let path = mode_list[mode.get(message.guild.id)].path.commands
     try {
       if (logging) { if (!cmd) return; console.log(`| ${chalk.green(new Date().toLocaleString())} | ${chalk.red(message.guild.name)} | ${chalk.cyan(message.author.tag)} | ${chalk.white(cmd)}`) }
-      // @ts-ignore
       fs.access(`${path}/${commands.get(cmd).help.category}/${cmd}.js`, fs.F_OK, (err) => {
         if (err) {
           try {
